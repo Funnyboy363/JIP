@@ -167,6 +167,9 @@ figure.banner img {
     margin: 0 auto; }
 
   /*  ----------------------- NAVIGATION --------------------------- */
+  main {
+    margin: 0 auto; }
+
   /*  ----------------------- MAIN --------------------------- */
   .blackbar {
     display: flex;
