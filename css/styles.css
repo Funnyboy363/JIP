@@ -111,7 +111,17 @@ h2 {
   color: #d1d1d1;
   font-size: 1.5rem; }
 
-/*  ----------------------- NAVIGATION --------------------------- */
+div.nav {
+  margin-top: .9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+h3 {
+  color: #d1d1d1;
+  font-size: .9rem;
+  margin-right: 1.3rem; }
+
 /*  ----------------------- MAIN --------------------------- */
 /*  ----------------------- FOOTER --------------------------- */
 /*----- Clearfix: Force an Element not to collapse -----*/

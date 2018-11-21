@@ -27,11 +27,24 @@ h2 {
     font-size: 1.5rem;
 }
 
-/*  ----------------------- NAVIGATION --------------------------- */
-nav {
+
+div.nav {
+    margin-top: .9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     
-    
-} // end nav
+}
+
+h3 {
+   
+    color: $gray;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+}
+
+
+
 
 
 /*  ----------------------- MAIN --------------------------- */
