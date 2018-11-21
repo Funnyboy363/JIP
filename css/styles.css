@@ -129,6 +129,27 @@ figure.banner {
 figure.banner img {
   width: 100%; }
 
+.blackbar {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin-top: 1rem;
+  padding-bottom: 1rem; }
+  .blackbar h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    color: #e7db31; }
+  .blackbar p {
+    color: white;
+    margin-left: 1rem; }
+  .blackbar ul.formula {
+    list-style-type: none; }
+  .blackbar ul {
+    color: white;
+    text-align: left;
+    margin-left: 3.7rem; }
+
 /*  ----------------------- MAIN --------------------------- */
 /*  ----------------------- FOOTER --------------------------- */
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -146,4 +167,10 @@ figure.banner img {
     margin: 0 auto; }
 
   /*  ----------------------- NAVIGATION --------------------------- */
-  /*  ----------------------- MAIN --------------------------- */ }
+  /*  ----------------------- MAIN --------------------------- */
+  .blackbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .blackbar ul.formula li {
+      text-align: left; } }
