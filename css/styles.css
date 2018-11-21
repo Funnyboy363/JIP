@@ -122,6 +122,13 @@ h3 {
   font-size: .9rem;
   margin-right: 1.3rem; }
 
+figure.banner {
+  width: 100%;
+  margin-top: .5rem; }
+
+figure.banner img {
+  width: 100%; }
+
 /*  ----------------------- MAIN --------------------------- */
 /*  ----------------------- FOOTER --------------------------- */
 /*----- Clearfix: Force an Element not to collapse -----*/
