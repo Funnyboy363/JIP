@@ -15,22 +15,13 @@ main {
 
 
 
-
-
-/*  ----------------------- MAIN --------------------------- */
-main {
-    
-    
-} // end main
-
-
-
-
 .blackbar {
     display: flex;
     flex-direction: row;
-   justify-content: center;
-
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+padding-left: 11rem;
+padding-right: 11rem;
 p {
 
 }
@@ -41,9 +32,6 @@ ul.formula  {
          text-align: left;
      }
 }
+} // end of blackbar
 
 
-
-
-
-}

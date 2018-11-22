@@ -170,10 +170,12 @@ figure.banner img {
   main {
     margin: 0 auto; }
 
-  /*  ----------------------- MAIN --------------------------- */
   .blackbar {
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 11rem;
+    padding-right: 11rem; }
     .blackbar ul.formula li {
       text-align: left; } }
