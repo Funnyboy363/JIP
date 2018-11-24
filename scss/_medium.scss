@@ -3,3 +3,12 @@ main {
    
     
 } // end main
+
+
+div.aboutus {
+    grid-template-columns: 1fr 1fr; 
+}
+
+div.aboutus article {
+    text-align: left;
+}

@@ -150,6 +150,25 @@ figure.banner img {
     text-align: left;
     margin-left: 3.7rem; }
 
+h4 {
+  font-size: 1.5rem;
+  color: #0484b4;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-left: 1rem; }
+
+div.aboutus {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 2%;
+  grid-row-gap: .5rem; }
+
+div.aboutus article {
+  margin: 2rem 2rem;
+  text-align: center; }
+  div.aboutus article p {
+    text-align: left; }
+
 /*  ----------------------- MAIN --------------------------- */
 /*  ----------------------- FOOTER --------------------------- */
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -159,7 +178,12 @@ figure.banner img {
   clear: both; }
 
 @media only screen and (min-width: 35rem) {
-  /*  ----------------------- MAIN --------------------------- */ }
+  /*  ----------------------- MAIN --------------------------- */
+  div.aboutus {
+    grid-template-columns: 1fr 1fr; }
+
+  div.aboutus article {
+    text-align: left; } }
 @media only screen and (min-width: 60rem) {
   /*  ----------------------- BODY --------------------------- */
   header, nav, main, footer {
@@ -178,4 +202,29 @@ figure.banner img {
     padding-left: 11rem;
     padding-right: 11rem; }
     .blackbar ul.formula li {
-      text-align: left; } }
+      text-align: left; }
+
+  h4 {
+    font-size: 2rem;
+    color: #0484b4;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    padding-left: 11rem;
+    margin-bottom: -1.5rem; }
+
+  div.aboutus {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    padding-left: 10rem;
+    padding-right: 10rem; }
+
+  figure.about {
+    width: 100%; }
+
+  figure.about img {
+    width: 100%; }
+
+  div.aboutus article h2 {
+    margin-top: 1rem;
+    color: #0484b4; } }
