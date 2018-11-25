@@ -34,6 +34,8 @@ div.nav {
     flex-direction: row;
     justify-content: flex-end;
     
+
+
 }
 
 h3 {
@@ -103,7 +105,7 @@ h4 {
 div.aboutus {
     
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
          grid-column-gap: 2%;
         grid-row-gap: .5rem;
         
@@ -111,43 +113,118 @@ div.aboutus {
 
 
 div.aboutus article {
-    margin: 2rem 2rem;
-    text-align: center;
+    margin: 2rem .4rem;
+    text-align: left;
     p {
         text-align: left;
     }
 }
 
+h2 {
+    color: $fontcolor;
+} 
 
 
 
+div.aboutthem article {
 
-/*  ----------------------- MAIN --------------------------- */
-main {
+    h2 {
+       margin-top: 1rem;
+    color: $fontcolor;
+    }
+    }
+
+
+
+    div.bottom {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 1rem 1rem;
     
+    article {
+        margin: 0 .5rem;
+    }
     
+    article a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: $fontcolor;
+        color: white;
+        padding: .5rem 2rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        border-radius: 1rem;
+        }
+
+
+        article a:hover {
+            background-color: #5d9abc;
+            color: darkgray;
+        }
     
+    }
+
+
+    figure.about {
+        width: 100%;
+        }
+        
+        figure.about img {
+        width: 100%;
+        }
+
+       
     
-} // end main
+        div.bottom article:last-child {
+            grid-column: 1 / span 1;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+
+        div.sponsors {
+            display: flex;
+            flex-direction: column;
+            margin: 2rem 6rem;
+            align-content: center;
+            text-align: center;
+            
+        
+        
+            figure.spon {
+                width: 100%;
+                margin: .5rem auto;
+            }
+        
+            figure.spon img {
+                width: 100%;
+            }
+        }
 
 
 
+        p.company {
+            text-align: center;
+            font-size: .5rem;
+            margin-top: 1rem;
+        }
 
 
-
-
-
-
-
-
-
-
-
-/*  ----------------------- FOOTER --------------------------- */
-footer {
-   
-    
-} // end footer
+        footer {
+            max-width: 100%;
+            padding: 1rem 0;
+            background: rgb(30,87,153); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+        color: white; 
+        
+        p {
+            margin: 0 4rem;
+        }
+        
+        }
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
