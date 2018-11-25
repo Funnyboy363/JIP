@@ -91,6 +91,9 @@ clear: both;
 
 article {
     margin: 0 .5rem;
+    h2 {
+        margin-top: 1rem;
+    }
 }
 
 article a {
@@ -125,7 +128,7 @@ color: $fontcolor;
 
 div.bottom article:last-child {
     grid-column: 1 / span 2;
-    margin-top: -20%;
+    margin-top: -22%;
 }
 
 div.sponsors {

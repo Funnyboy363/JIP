@@ -98,6 +98,9 @@ html {
   box-sizing: border-box; }
 
 /*  ----------------------- BODY --------------------------- */
+body {
+  font-family: 'Teko', sans-serif; }
+
 /*  ----------------------- HEADER --------------------------- */
 .logoh {
   display: flex;
@@ -359,6 +362,8 @@ footer {
     clear: both; }
     div.bottom article {
       margin: 0 .5rem; }
+      div.bottom article h2 {
+        margin-top: 1rem; }
     div.bottom article a {
       display: block;
       text-decoration: none;
@@ -382,7 +387,7 @@ footer {
 
   div.bottom article:last-child {
     grid-column: 1 / span 2;
-    margin-top: -20%; }
+    margin-top: -22%; }
 
   div.sponsors {
     display: flex;
