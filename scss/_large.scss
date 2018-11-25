@@ -48,7 +48,7 @@ h4 {
 
 
 div.aboutus {
-    
+    display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 0;
         grid-row-gap: 0;
@@ -69,4 +69,97 @@ div.aboutus article {
        margin-top: 1rem;
     color: $fontcolor;
    }
+}
+
+
+
+h2 {
+    color: $fontcolor;
+} 
+
+
+div.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    margin-top: 4rem;
+    padding-left: 11rem;
+padding-right: 11rem;
+clear: both;
+
+
+article {
+    margin: 0 .5rem;
+}
+
+article a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: $fontcolor;
+    color: white;
+    padding: .5rem 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    border-radius: 1rem;
+    }
+
+}
+
+figure.about {
+width: 100%;
+}
+
+figure.about img {
+width: 100%;
+}
+
+div.aboutthem article {
+
+h2 {
+   margin-top: 1rem;
+color: $fontcolor;
+}
+}
+
+div.bottom article:last-child {
+    grid-column: 1 / span 2;
+    margin-top: -20%;
+}
+
+div.sponsors {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 11rem;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    
+
+
+    figure.spon {
+        width: 100%;
+        margin: auto .5rem;
+    }
+
+    figure.spon img {
+        width: 100%;
+    }
+}
+
+
+footer {
+    max-width: 100%;
+    padding: 1rem 0;
+    background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+color: white; 
+
+p {
+    margin: 0 11rem;
+}
+
 }
